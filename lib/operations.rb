@@ -6,6 +6,7 @@ def unsafe?(speed)
     if 40 < speed && speed < 60
       return false
  end
+ binding.pry
 end
 
 
